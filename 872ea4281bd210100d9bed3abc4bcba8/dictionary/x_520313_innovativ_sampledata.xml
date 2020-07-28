@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="sampledata" max_length="40" name="x_520313_innovativ_sampledata" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Item" label="Item" max_length="40" name="u_item" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=OrderDate" label="OrderDate" max_length="40" name="u_orderdate" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Region" label="Region" max_length="40" name="u_region" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Rep" label="Rep" max_length="40" name="u_rep" type="string"/>
+        <element attributes="import_attribute_name=Total" label="Total" max_length="15" name="u_total" type="decimal"/>
+        <element attributes="import_attribute_name=UnitCost" label="UnitCost" max_length="15" name="u_unitcost" type="decimal"/>
+        <element attributes="import_attribute_name=Units" label="Units" max_length="40" name="u_units" type="integer"/>
+    </element>
+</database>
